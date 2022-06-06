@@ -1,0 +1,9 @@
+body {
+    /*background: url("assets/maze-bg.png") repeat;*/
+    background: white;
+}
+
+.content-wrapper {
+    margin: auto;
+    max-width: 1250px;
+}

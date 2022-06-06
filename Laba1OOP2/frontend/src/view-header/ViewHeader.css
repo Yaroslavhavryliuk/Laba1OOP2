@@ -1,0 +1,41 @@
+.ViewHeader {
+    margin: 0;
+    padding: 10px 15px;
+    border-bottom: 3px solid #FF0000;
+    box-shadow: 0 1px 6px  #82a88a;
+    background: white;
+}
+
+.ViewHeader-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ViewHeader-login-info {
+    color: 	#00FF00;
+}
+
+.ViewHeader-logout-button {
+    width: 100px;
+    background: #00FF00;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 2em;
+    color: white;
+
+    user-select: none;
+    transition: all 0.15s 0s ease-in-out;
+    cursor: pointer;
+}
+
+.ViewHeader-logout-button:hover {
+    background: #FF0000;
+    color: #00FF00;
+}
+
+.ViewHeader-logout-button:active {
+    background: #FF1493;
+    color: #00FF00;
+}
